@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAgency</title>
+    <link rel="stylesheet" href="css/styleCopy.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Amaranth&family=Aoboshi+One&family=Borel&family=Lobster&family=Playfair+Display&family=Poppins:wght@300&family=Rampart+One&family=Yatra+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500&family=Play&family=Righteous&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="preloader">
+        <img src="imgs/Jump.avif">
+    </div>
+
+
+<!--<<<<<<<<<<<<<<<<<<<<NAVBAR>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <nav class="navbar" id="blur2">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars" id="xma" onclick="closei(this)"></i>
+        </label>
+        <label class="logo"><a href="#home" onclick="remch()"><img src="imgs/dlog.png"></a></label>
+            
+                <ul class="fun">
+                    <li><a href="#home" class="" onclick="remch()">Home</a></li>
+                    <li><a href="#about" class="" onclick="remch()">About</a></li>
+                    <li><a href="#service" class="" onclick="remch()">Service</a></li>
+                    <li><a href="#contact" class="" onclick="remch()">Contact</a></li>
+
+                </ul>
+            
+    </nav>  
+    
+    
+<!--<<<<<<<<<<<<<<<<<<<<<HOME>>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <section id="home">
+        <div class="content">
+            <div class="left">
+                
+                    <h6>Elavate Your Brand With
+                    </h6>
+                    <h1>Influencer Marketing
+                    of <span class="type">DAgency.</span></h1>
+                    <p class="animate2">Unlock the Power of D Agency : Achieve Your Goals Faster!"</p>
+                    <a href="" class="btn">Contact</a>
+                
+            </div>
+            <div class="right">
+
+                <!--
+                <img class="coin" width=50% src="imgs/coin.png" alt="image">
+
+                <img class="coin1" width=50% src="imgs/coin.png" alt="image">
+
+                <img class="coin2" width=50% src="imgs/coin.png" alt="image">
+
+                <img class="coin3" width=50% src="imgs/coin.png" alt="image">
+
+                <img class="coin4" width=50% src="imgs/coin.png" alt="image">
+
+                <img class="coin5" width=50% src="imgs/coin.png" alt="image">
+-->
+                <img class="cbu" src="imgs/vect1.png" alt="image">
+            </div>
+<!--
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>-->
+        </div>
+    </section>
+
+<!--<<<<<<<<<<<<<<<<<<<<<About>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <section id="about">
+    <div class="acont">
+        <div class="aboutImg animate3">
+            <img  class="animate3" src="imgs/vect.png" alt="about image">
+        </div>
+
+        <div class="aboutTxt">
+            <h2 class="animate">About Us</h2>
+            <h6 class="animate1">We Have Expert Influencers.</h6>
+            <p class="animate2">DAgency is a Chennai-Based marketing agency specializing in influencer marketing. We help brands to connect with their target audience through authentic influencer partnership.
+            </p>
+            <p class="animate2">Our Team of Experts has a deep understanding of the industry and is dedicated to delivering exceptional results for our clients. We believe in the power of influencer marketing and we are commited to helping brands to achieve their marketing goals through this effective strategy.
+            </p>
+        </div>
+    </div>
+    </section>
+
+<!--<<<<<<<<<<<<<<<<<<<SERVICES>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <section id="service">
+        <div class="hedi" id="blur">
+            <h5>Our</h5>
+            <h1>Services</h1>
+        </div>
+        <div class="containb" id="blur1">
+            <div class="box">
+                <div class="boximg one" onclick="togg()">
+                    
+                </div>
+                <div class="boxcont">
+                    <h2>Influencer Marketing</h2>
+                    <p>click to view</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="boximg two">
+                    
+                </div>
+                <div class="boxcont">
+                    <h2>Developing...</h2>
+                    <p>coming soon...</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="boximg three">
+                    
+                </div>
+                <div class="boxcont">
+                    <h2>Developing..</h2>
+                    <p>coming soon...</p>
+                </div>
+            </div>
+        </div>
+    <!--<<<<<<<<<<<<<<<<<<<<POP UP>>>>>>>>>>>>>>>>>>>-->
+        <div id="pop">
+            <button onclick="togg()">&times;</button>
+            <h2>Influencer Maeketing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cum laboriosam hic praesentium veritatis eligendi architecto modi maxime quod! Eos impedit sed vero nulla dolore voluptate eum voluptas est explicabo.
+            Odit eos placeat quibusdam, iusto voluptatem nisi provident aliquid quidem sapiente aut expedita voluptatum optio reprehenderit sit molestiae harum dolor velit laudantium hic voluptate nulla. Nostrum iure similique perferendis consequuntur!
+            Sapiente obcaecati iste odit vero, ea in laboriosam dicta atque fugit nulla, sint inventore optio aliquam tempora hic id similique maiores, et culpa harum sit! Nihil optio iste neque accusamus!</p>
+        </div>
+
+    </section>
+
+<!--<<<<<<<<<<<<<<<<<<<<CONTACT>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <section id="contact">
+       <div class="cit">
+           <div class="set">
+               <div>
+                   <h2>Reach Us</h2>
+                   <ol class="info">
+                       <li>
+                           <span><i class="fas fa-envelope"></i></span>
+                           <span>dagency@gmail.com</span>
+                       </li>
+
+                       <li>
+                            <span><i class="fas fa-phone"></i></span>
+                            <span>+91 9876534581</span>
+                        </li>
+
+                        <li>
+                            <span><i class="fa-solid fa-location-dot"></i></i></span>
+                            <span>90 6th street,<br>
+                            Anna nagar,<br>
+                            Chennai-600028</span>
+                        </li>
+                    </ol>
+
+                   
+               </div>
+               <ol class="soci">
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            </ol>
+           </div>
+           <div class="get">
+               <h2>Get in Touch</h2>
+               <form method="POST" action="sendmail.php">
+                    <div class="formb">
+                           <div class="inpb sing">
+                               <input type="text" name="name" required>
+                               <span>First Name</span>
+                           </div>
+
+                           <div class="inpb sing">
+                            <input type="text" name="lname" required="required">
+                            <span>Last Name</span>
+                           </div>
+
+                            <div class="inpb sing">
+                                <input type="email" name="email" required="required">
+                                <span>Email Id</span>
+                            </div>
+
+                            <div class="inpb sing">
+                                <input type="number" name="phone" required="required">
+                                <span>Phone Number</span>
+                            </div>
+
+                            <div class="inpb mul">
+                                <textarea name="message" required="required"></textarea>
+                                <span>Write your message here...</span>
+                            </div>
+
+                            <div class="inpb mul">
+                                <input type="submit" value="Send"></input>
+                            </div>
+                       
+                   
+                    </div>
+                </form>
+           </div>
+       </div>
+    </section>
+<!--<<<<<<<<<<<<<<<<<<<<SCRIPT>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <a href="#home" class="top"><i class="fa-solid fa-chevron-up"></i></a>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        //mailsender
+            
+
+
+        //end
+        //above code is  silde
+    
+        let closei= function(icon){
+            icon.classList.toggle("fa-xmark");
+        }
+
+        let ali=document.querySelector("li");
+        let navu=document.querySelector("nav");
+        window.addEventListener("scroll", ()=>{
+            if(document.documentElement.scrollTop>20){
+                navu.classList.add("sticky");
+                ali.classList.add("sise");
+            }else{
+                navu.classList.remove("sticky");
+                ali.classList.remove("sise");
+            }
+        })
+
+        loader=document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+        
+
+
+        function togg(){
+            var blur3=document.getElementById('home');
+            blur3.classList.toggle('active');
+
+            var blur4=document.getElementById('about');
+            blur4.classList.toggle('active');
+
+            var blur5=document.getElementById('contact');
+            blur5.classList.toggle('active');
+
+            var blur=document.getElementById('blur');
+            blur.classList.toggle('active');
+            
+            var blur1=document.getElementById('blur1');
+            blur1.classList.toggle('active');
+
+            var blur2=document.getElementById('blur2');
+            blur2.classList.toggle('active');
+
+
+
+            var pop=document.getElementById('pop');
+            pop.classList.toggle('active');
+        }
+
+        remch = function(){
+            document.getElementById('check').checked=false
+            icon=document.getElementById('xma');
+            icon.classList.remove("fa-xmark");
+        }
+
+        //animations
+        
+        let sections=document.querySelectorAll('section');
+        
+        window.onscroll = ()=>{
+            sections.forEach(sec => {
+                let top = window.scrollY;
+                let heigh = sec.offsetHeight;
+                let offs = sec.offsetTop-250;
+
+                if (top >= offs && top < offs+heigh){
+                    sec.classList.add('show-anime');
+                }else{
+                    sec.classList.remove('show-anime')
+                }
+            })
+        }
+            </script>
+</body>
+</html>
